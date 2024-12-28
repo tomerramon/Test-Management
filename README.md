@@ -3,8 +3,7 @@ The project is a platform for Exams; users can upload their own Exams and take E
 
 ## Students
 
-- **Tomer Ramon** - 204621510
-
+- **Tomer Ramon**
 ---
 
 ## Project URL
