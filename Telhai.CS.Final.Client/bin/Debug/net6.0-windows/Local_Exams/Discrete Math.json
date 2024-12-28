@@ -1,0 +1,130 @@
+{
+  "Id": 0,
+  "Str_Id": "e3ae7c8d-7fea-41b4-96e0-0344925daa3f",
+  "Name": "Discrete Math",
+  "Date": "2023-03-21T18:33:00",
+  "TeacherFName": "Soli",
+  "TeacherLNmae": "Wishkautzen",
+  "TotalHours": 1,
+  "TotalMinutes": 30,
+  "IsRandom": true,
+  "Questions": [
+    {
+      "Description": "What is a proposition?",
+      "Id": 0,
+      "Str_Id": "c5a5805e-88ea-42f0-b67b-e40a065414e9",
+      "Answers": [
+        {
+          "Id": 0,
+          "Text": "A logical operation.",
+          "IsCorrect": false
+        },
+        {
+          "Id": 0,
+          "Text": "An argument",
+          "IsCorrect": false
+        },
+        {
+          "Id": 0,
+          "Text": "A statement that can be either true or false.",
+          "IsCorrect": true
+        },
+        {
+          "Id": 0,
+          "Text": "A set of instructions.",
+          "IsCorrect": false
+        }
+      ],
+      "IsRandom": true,
+      "CurrectAnswer": "A statement that can be either true or false."
+    },
+    {
+      "Description": "What is a tautology?",
+      "Id": 0,
+      "Str_Id": "20284127-f129-401a-838b-280609dcd44c",
+      "Answers": [
+        {
+          "Id": 0,
+          "Text": "A statement that is always true.",
+          "IsCorrect": true
+        },
+        {
+          "Id": 0,
+          "Text": "A statement that is always false.",
+          "IsCorrect": false
+        },
+        {
+          "Id": 0,
+          "Text": "A statement that can be either true or false.",
+          "IsCorrect": false
+        },
+        {
+          "Id": 0,
+          "Text": "A statement that is not well-formed.",
+          "IsCorrect": false
+        }
+      ],
+      "IsRandom": true,
+      "CurrectAnswer": "A statement that is always true."
+    },
+    {
+      "Description": "What is a logical equivalence?",
+      "Id": 0,
+      "Str_Id": "5b0971c0-f7fb-4a5f-905a-9d8bbeb3d2a2",
+      "Answers": [
+        {
+          "Id": 0,
+          "Text": "Two propositions that have the same truth value for all possible inputs.",
+          "IsCorrect": true
+        },
+        {
+          "Id": 0,
+          "Text": "Two propositions that are contradictory.",
+          "IsCorrect": false
+        },
+        {
+          "Id": 0,
+          "Text": "Two propositions that are not well-formed.",
+          "IsCorrect": false
+        },
+        {
+          "Id": 0,
+          "Text": "Two propositions that are true only under certain conditions.",
+          "IsCorrect": false
+        }
+      ],
+      "IsRandom": true,
+      "CurrectAnswer": "Two propositions that have the same truth value for all possible inputs."
+    },
+    {
+      "Description": "What is a set?",
+      "Id": 0,
+      "Str_Id": "b5a52c1f-e5ba-4459-8203-d537ddf63816",
+      "Answers": [
+        {
+          "Id": 0,
+          "Text": "A collection of unordered elements",
+          "IsCorrect": true
+        },
+        {
+          "Id": 0,
+          "Text": "A collection of ordered elements.",
+          "IsCorrect": false
+        },
+        {
+          "Id": 0,
+          "Text": "A collection of distinct elements",
+          "IsCorrect": false
+        },
+        {
+          "Id": 0,
+          "Text": "A collection of identical elements.",
+          "IsCorrect": false
+        }
+      ],
+      "IsRandom": true,
+      "CurrectAnswer": "A collection of unordered elements"
+    }
+  ],
+  "Participations": []
+}

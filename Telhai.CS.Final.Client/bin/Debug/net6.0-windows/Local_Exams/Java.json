@@ -1,0 +1,159 @@
+{
+  "Id": 0,
+  "Str_Id": "bacf55e0-e148-486b-8b37-5297184aac11",
+  "Name": "Java",
+  "Date": "2023-03-21T18:39:00",
+  "TeacherFName": "Roni",
+  "TeacherLNmae": "Sivan",
+  "TotalHours": 1,
+  "TotalMinutes": 45,
+  "IsRandom": false,
+  "Questions": [
+    {
+      "Description": "Which of the following is NOT a primitive data type in Java?",
+      "Id": 0,
+      "Str_Id": "86964cf4-800a-4d76-b048-a0a6e636793c",
+      "Answers": [
+        {
+          "Id": 0,
+          "Text": "boolean",
+          "IsCorrect": false
+        },
+        {
+          "Id": 0,
+          "Text": "byte",
+          "IsCorrect": false
+        },
+        {
+          "Id": 0,
+          "Text": "char",
+          "IsCorrect": false
+        },
+        {
+          "Id": 0,
+          "Text": "string",
+          "IsCorrect": true
+        }
+      ],
+      "IsRandom": true,
+      "CurrectAnswer": "string"
+    },
+    {
+      "Description": "What is the correct syntax for declaring an array in Java?",
+      "Id": 0,
+      "Str_Id": "5985ad12-3580-4a14-b58e-9a14277a7f48",
+      "Answers": [
+        {
+          "Id": 0,
+          "Text": "int[ ] numbers;",
+          "IsCorrect": true
+        },
+        {
+          "Id": 0,
+          "Text": "int numbers[ ];",
+          "IsCorrect": false
+        },
+        {
+          "Id": 0,
+          "Text": "numbers[ ] int;",
+          "IsCorrect": false
+        },
+        {
+          "Id": 0,
+          "Text": "[ ]int numbers;",
+          "IsCorrect": false
+        }
+      ],
+      "IsRandom": true,
+      "CurrectAnswer": "int[ ] numbers;"
+    },
+    {
+      "Description": "Which of the following statements is true regarding inheritance in Java?",
+      "Id": 0,
+      "Str_Id": "1f35576c-e902-42cc-89a7-19386c9b22df",
+      "Answers": [
+        {
+          "Id": 0,
+          "Text": "A subclass inherits all the properties and methods of its superclass.",
+          "IsCorrect": true
+        },
+        {
+          "Id": 0,
+          "Text": "A superclass inherits all the properties and methods of its subclass.",
+          "IsCorrect": false
+        },
+        {
+          "Id": 0,
+          "Text": "A subclass can access the private members of its superclass.",
+          "IsCorrect": false
+        },
+        {
+          "Id": 0,
+          "Text": "A superclass can access the private members of its subclass.",
+          "IsCorrect": false
+        }
+      ],
+      "IsRandom": true,
+      "CurrectAnswer": "A subclass inherits all the properties and methods of its superclass."
+    },
+    {
+      "Description": "What is the correct syntax for the \\u0022if-else\\u0022 statement in Java?",
+      "Id": 0,
+      "Str_Id": "3d1500e7-4d41-4c2d-a1d4-efbe55613e7e",
+      "Answers": [
+        {
+          "Id": 0,
+          "Text": "if (condition) { } else (condition) { }",
+          "IsCorrect": false
+        },
+        {
+          "Id": 0,
+          "Text": "if (condition) { } else { }",
+          "IsCorrect": true
+        },
+        {
+          "Id": 0,
+          "Text": "if (condition) then { } else { }",
+          "IsCorrect": false
+        },
+        {
+          "Id": 0,
+          "Text": "if (condition) { } elseif (condition) { } else { }",
+          "IsCorrect": false
+        }
+      ],
+      "IsRandom": true,
+      "CurrectAnswer": "if (condition) { } else { }"
+    },
+    {
+      "Description": "What is the purpose of the \u0022this\u0022 keyword in Java?",
+      "Id": 0,
+      "Str_Id": "14e6b7b9-bfde-449c-86ea-c096a5c88fe7",
+      "Answers": [
+        {
+          "Id": 0,
+          "Text": "To reference the current object.",
+          "IsCorrect": true
+        },
+        {
+          "Id": 0,
+          "Text": "To reference the parent object.",
+          "IsCorrect": false
+        },
+        {
+          "Id": 0,
+          "Text": "To reference a child object.",
+          "IsCorrect": false
+        },
+        {
+          "Id": 0,
+          "Text": "To reference a static object.",
+          "IsCorrect": false
+        }
+      ],
+      "IsRandom": true,
+      "CurrectAnswer": "To reference the current object."
+    }
+  ],
+  "Participations": []
+}

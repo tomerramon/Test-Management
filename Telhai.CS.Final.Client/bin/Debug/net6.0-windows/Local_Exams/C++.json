@@ -1,0 +1,101 @@
+{
+  "Id": 0,
+  "Str_Id": "f0e9ddb2-ecb8-4af3-86e9-f091349b1afd",
+  "Name": "C\u002B\u002B",
+  "Date": "2023-03-21T18:36:00",
+  "TeacherFName": "Ofer",
+  "TeacherLNmae": "Shir",
+  "TotalHours": 3,
+  "TotalMinutes": 0,
+  "IsRandom": false,
+  "Questions": [
+    {
+      "Description": "Which of the following is used to declare a variable in C\u002B\u002B",
+      "Id": 0,
+      "Str_Id": "765aad53-8d60-4f44-beaf-860f05b6923e",
+      "Answers": [
+        {
+          "Id": 0,
+          "Text": "let",
+          "IsCorrect": false
+        },
+        {
+          "Id": 0,
+          "Text": "var",
+          "IsCorrect": false
+        },
+        {
+          "Id": 0,
+          "Text": "int",
+          "IsCorrect": true
+        },
+        {
+          "Id": 0,
+          "Text": "variable",
+          "IsCorrect": false
+        }
+      ],
+      "IsRandom": true,
+      "CurrectAnswer": "int"
+    },
+    {
+      "Description": "What is the purpose of the \u0022cin\u0022 statement in C\u002B\u002B",
+      "Id": 0,
+      "Str_Id": "86b98932-2dd8-45aa-9cdb-fc46ad03e17a",
+      "Answers": [
+        {
+          "Id": 0,
+          "Text": "It outputs text to the console.",
+          "IsCorrect": false
+        },
+        {
+          "Id": 0,
+          "Text": "It performs mathematical operations.",
+          "IsCorrect": false
+        },
+        {
+          "Id": 0,
+          "Text": "It reads input from the user.",
+          "IsCorrect": true
+        },
+        {
+          "Id": 0,
+          "Text": "It declares a variable.",
+          "IsCorrect": false
+        }
+      ],
+      "IsRandom": true,
+      "CurrectAnswer": "It reads input from the user."
+    },
+    {
+      "Description": "Which of the following is NOT a C\u002B\u002B control structure?",
+      "Id": 0,
+      "Str_Id": "a28187af-726d-4811-b1fd-32657f422ed4",
+      "Answers": [
+        {
+          "Id": 0,
+          "Text": "if-else statement",
+          "IsCorrect": false
+        },
+        {
+          "Id": 0,
+          "Text": "switch statement",
+          "IsCorrect": false
+        },
+        {
+          "Id": 0,
+          "Text": "for loop",
+          "IsCorrect": false
+        },
+        {
+          "Id": 0,
+          "Text": "while-else loop",
+          "IsCorrect": true
+        }
+      ],
+      "IsRandom": true,
+      "CurrectAnswer": "while-else loop"
+    }
+  ],
+  "Participations": []
+}

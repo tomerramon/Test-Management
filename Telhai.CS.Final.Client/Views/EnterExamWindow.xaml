@@ -1,0 +1,69 @@
+﻿<Window x:Class="Telhai.CS.Final.Client.Views.EnterExamWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Telhai.CS.Final.Client.Views"
+        mc:Ignorable="d"
+        Title="Enter Exam" Height="500" Width="800" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Window.Background>
+        <ImageBrush ImageSource="C:\Tomer\school\C#.NET\Repeated course\Final Project 2\Telhai.CS.Final.Client\backgrounds\screen-background.jpg" Stretch="Fill"/>
+    </Window.Background>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition  />
+            <RowDefinition Height="auto"  />
+            <RowDefinition Height="auto"  />
+            <RowDefinition Height="auto"  />
+            <RowDefinition  />
+        </Grid.RowDefinitions>
+        <Label Name="txtTitle" Grid.Row="0" Grid.Column="1" Content="Test Login " FontSize="30"  VerticalAlignment="Center" Margin="0,10,0,0" HorizontalAlignment="Center" FontWeight="DemiBold"/>
+        <StackPanel Grid.Row="1" Grid.Column="1" >
+            <Label Content="Please enter your ID, First and Last name to start the test." FontSize="18" HorizontalAlignment="Center" FontWeight="Bold" Opacity="0.5"/>
+            <Label Content="Before you start the test make sure you start at the right time." FontSize="18"  VerticalAlignment="Center" HorizontalAlignment="Center" FontWeight="Bold" Opacity="0.5"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="2" Width="200" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,10,0,10">
+            <Label Name="lblID" Content="Id number :" FontSize="15" FontFamily="Segoe UI Semibold"/>
+            <TextBox Name="txtID" BorderThickness="0,0,0,2" FontSize="15" BorderBrush="#FF5A6996" Margin="0,0,0,5" LostFocus="txtID_LostFocus" >
+                <TextBox.Background>
+                    <ImageBrush/>
+                </TextBox.Background>
+            </TextBox>
+
+            <Label Name="lblFirst" Content="First Name :" FontSize="15" FontFamily="Segoe UI Semibold"/>
+            <TextBox Name="txtFirstN" BorderThickness="0,0,0,2" FontSize="15" BorderBrush="#FF5A6996" Margin="0,0,0,5">
+                <TextBox.Background>
+                    <ImageBrush/>
+                </TextBox.Background>
+            </TextBox>
+
+            <Label Name="lblLast" Content="Last Name :" FontSize="15" FontFamily="Segoe UI Semibold"/>
+            <TextBox Name="txtLastN" BorderThickness="0,0,0,2" FontSize="15" BorderBrush="#FF5A6996" Margin="0,0,0,5">
+                <TextBox.Background>
+                    <ImageBrush/>
+                </TextBox.Background>
+            </TextBox>
+        </StackPanel>
+
+        <Button Grid.Row="3" Name="btnStartTest" Content="Start Test" BorderThickness="0" FontSize="18" Foreground="#FFE6E6E6" Cursor="Hand" Margin="0,35,0,0" FontFamily="Segoe UI Semibold" Click="btnStartTest_Click">
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Setter Property="Background" Value="#FF5FB78D"/>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="#FF438264"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border Width="120" Height="35" CornerRadius="15" Background="{TemplateBinding Background}">
+                        <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+    </Grid>
+</Window>

@@ -1,0 +1,265 @@
+{
+  "Id": 0,
+  "Str_Id": "c8cdbfb0-2395-4d7d-a517-54e1e7da8085",
+  "Name": "C#.NET",
+  "Date": "2023-03-21T18:25:00",
+  "TeacherFName": "Gad",
+  "TeacherLNmae": "Shor",
+  "TotalHours": 3,
+  "TotalMinutes": 30,
+  "IsRandom": true,
+  "Questions": [
+    {
+      "Description": "What is C#?",
+      "Id": 0,
+      "Str_Id": "668af499-d407-4abf-8ada-f353c307f68e",
+      "Answers": [
+        {
+          "Id": 0,
+          "Text": "A programming language",
+          "IsCorrect": true
+        },
+        {
+          "Id": 0,
+          "Text": "A web framework",
+          "IsCorrect": false
+        },
+        {
+          "Id": 0,
+          "Text": "An operating system",
+          "IsCorrect": false
+        },
+        {
+          "Id": 0,
+          "Text": "A database management system",
+          "IsCorrect": false
+        }
+      ],
+      "IsRandom": true,
+      "CurrectAnswer": "A programming language"
+    },
+    {
+      "Description": "Which of the following is a value type in C#?",
+      "Id": 0,
+      "Str_Id": "56c2f282-c8ea-4165-8c6c-b60f23847f8e",
+      "Answers": [
+        {
+          "Id": 0,
+          "Text": "string",
+          "IsCorrect": false
+        },
+        {
+          "Id": 0,
+          "Text": "int",
+          "IsCorrect": true
+        },
+        {
+          "Id": 0,
+          "Text": "class",
+          "IsCorrect": false
+        },
+        {
+          "Id": 0,
+          "Text": "object",
+          "IsCorrect": false
+        }
+      ],
+      "IsRandom": true,
+      "CurrectAnswer": "int"
+    },
+    {
+      "Description": "What does the \u0022void\u0022 keyword mean in C#?",
+      "Id": 0,
+      "Str_Id": "50546bf5-f031-42f3-b848-cbd2bc0de435",
+      "Answers": [
+        {
+          "Id": 0,
+          "Text": "It specifies that a method does not return a value",
+          "IsCorrect": true
+        },
+        {
+          "Id": 0,
+          "Text": "It indicates a method is public",
+          "IsCorrect": false
+        },
+        {
+          "Id": 0,
+          "Text": "It declares a variable",
+          "IsCorrect": false
+        },
+        {
+          "Id": 0,
+          "Text": "It initializes an array",
+          "IsCorrect": false
+        }
+      ],
+      "IsRandom": true,
+      "CurrectAnswer": "It specifies that a method does not return a value"
+    },
+    {
+      "Description": "Which of the following is used to create a new instance of a class in C#?",
+      "Id": 0,
+      "Str_Id": "ad9c7056-ce87-46ae-9522-f336eb59d13e",
+      "Answers": [
+        {
+          "Id": 0,
+          "Text": "new",
+          "IsCorrect": true
+        },
+        {
+          "Id": 0,
+          "Text": "create",
+          "IsCorrect": false
+        },
+        {
+          "Id": 0,
+          "Text": "instance",
+          "IsCorrect": false
+        },
+        {
+          "Id": 0,
+          "Text": "allocate",
+          "IsCorrect": false
+        }
+      ],
+      "IsRandom": true,
+      "CurrectAnswer": "new"
+    },
+    {
+      "Description": "What is the default access modifier for a class member in C#?",
+      "Id": 0,
+      "Str_Id": "a6d516e5-0a00-4e6c-9e55-6648e21e19bd",
+      "Answers": [
+        {
+          "Id": 0,
+          "Text": "private",
+          "IsCorrect": true
+        },
+        {
+          "Id": 0,
+          "Text": "protected",
+          "IsCorrect": false
+        },
+        {
+          "Id": 0,
+          "Text": "public",
+          "IsCorrect": false
+        },
+        {
+          "Id": 0,
+          "Text": "internal",
+          "IsCorrect": false
+        }
+      ],
+      "IsRandom": true,
+      "CurrectAnswer": "private"
+    },
+    {
+      "Description": "Which of the following is an example of a conditional statement in C#?",
+      "Id": 0,
+      "Str_Id": "07db7f9a-0046-41ee-8857-347972c08fff",
+      "Answers": [
+        {
+          "Id": 0,
+          "Text": "for loop",
+          "IsCorrect": false
+        },
+        {
+          "Id": 0,
+          "Text": "while loop",
+          "IsCorrect": false
+        },
+        {
+          "Id": 0,
+          "Text": "switch statement",
+          "IsCorrect": true
+        },
+        {
+          "Id": 0,
+          "Text": "do-while loop",
+          "IsCorrect": false
+        }
+      ],
+      "IsRandom": true,
+      "CurrectAnswer": "switch statement"
+    },
+    {
+      "Description": "What is the difference between a class and an object in C#?",
+      "Id": 0,
+      "Str_Id": "e6fbc448-bd08-4f2a-bc3b-2d682593884e",
+      "Answers": [
+        {
+          "Id": 0,
+          "Text": "A class is a blueprint, while an object is an instance of a class",
+          "IsCorrect": true
+        },
+        {
+          "Id": 0,
+          "Text": "A class and an object are the same thing",
+          "IsCorrect": false
+        },
+        {
+          "Id": 0,
+          "Text": "An object is a blueprint, while a class is an instance of an object",
+          "IsCorrect": false
+        },
+        {
+          "Id": 0,
+          "Text": "A class is a method, while an object is a variable",
+          "IsCorrect": false
+        }
+      ],
+      "IsRandom": true,
+      "CurrectAnswer": "A class is a blueprint, while an object is an instance of a class"
+    },
+    {
+      "Description": "Which of the following is used to declare a variable in C#?",
+      "Id": 0,
+      "Str_Id": "ae9771f9-ae77-4cb9-b5a7-87f949f76e14",
+      "Answers": [
+        {
+          "Id": 0,
+          "Text": "def",
+          "IsCorrect": false
+        },
+        {
+          "Id": 0,
+          "Text": "var",
+          "IsCorrect": true
+        },
+        {
+          "Id": 0,
+          "Text": "let",
+          "IsCorrect": false
+        },
+        {
+          "Id": 0,
+          "Text": "const",
+          "IsCorrect": false
+        }
+      ],
+      "IsRandom": true,
+      "CurrectAnswer": "var"
+    },
+    {
+      "Description": "What is the difference between \u0022==\u0022 and \u0022===\u0022 in C#?",
+      "Id": 0,
+      "Str_Id": "ab9df49b-3b3a-49c3-875f-862e25d8c2e5",
+      "Answers": [
+        {
+          "Id": 0,
+          "Text": "There is no difference, they are the same thing",
+          "IsCorrect": false
+        },
+        {
+          "Id": 0,
+          "Text": "\u0022==\u0022 compares the value, while \u0022===\u0022 compares the value and the type",
+          "IsCorrect": true
+        }
+      ],
+      "IsRandom": true,
+      "CurrectAnswer": "\u0022==\u0022 compares the value, while \u0022===\u0022 compares the value and the type"
+    }
+  ],
+  "Participations": []
+}
