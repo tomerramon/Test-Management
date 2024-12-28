@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Telhai.CS.Final.Server.props" />
+</Project>
